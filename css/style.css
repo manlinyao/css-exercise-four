@@ -15,7 +15,6 @@
 body {
   background-color: #dadada;
   font-size: 10px;
-  width: 100%;
 }
 
 .baku-pic {
@@ -36,18 +35,4 @@ body {
 .rome-pic {
   width: 100%;
   background-image: url(images/rome.jpg);
-}
-
-@media screen and (min-width: 575px) {
-  body {
-    margin: 1%;
-    width: 48%;
-  }
-}
-
-@media screen and (min-width: 991px) {
-  body {
-    margin: 5% ;
-    width: 20%
-  }
 }
