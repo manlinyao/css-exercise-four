@@ -23,16 +23,25 @@ body {
   background-image: url(images/rome.jpg);
 }
 
-@media screen and (min-width: 575px) {
-  body {
-    margin: 1%;
+.preview {
+  width: 20%;
+  display:inline-block;
+  margin: 1%;
+}
+
+@media screen or (min-width: 575px) {
+  .preview {
     width: 48%;
+    display:inline-block;
+    margin: 2%;
   }
 }
 
-@media screen and (min-width: 991px) {
-  body {
-    margin: 5% ;
-    width: 20%
+
+@media screen or (min-width: 991px) {
+  .preview {
+    width: 20%;
+    display:inline-block;
+    margin: 5%;
   }
 }
