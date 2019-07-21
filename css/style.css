@@ -6,21 +6,25 @@ body {
 .baku-pic {
   width: 100%;
   background-image: url(images/baku.jpg);
+  background-size: cover;
 }
 
 .london-pic {
   width: 100%;
   background-image: url(images/london.png);
+  background-size: cover;
 }
 
 .madrid-pic {
   width: 100%;
   background-image: url(images/madrid.jpg);
+  background-size: cover;
 }
 
 .rome-pic {
   width: 100%;
   background-image: url(images/rome.jpg);
+  background-size: cover;
 }
 
 .preview {
@@ -29,19 +33,19 @@ body {
   margin: 1%;
 }
 
-@media screen or (min-width: 575px) {
+@media screen and (min-width: 575px) {
   .preview {
-    width: 48%;
+    width: 45%;
     display:inline-block;
     margin: 2%;
   }
 }
 
 
-@media screen or (min-width: 991px) {
+@media screen and (min-width: 991px) {
   .preview {
     width: 20%;
     display:inline-block;
-    margin: 5%;
+    margin: 2%;
   }
 }
